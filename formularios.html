@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Álvaro Navarro Porcuna" />
+    <meta
+      name="description"
+      content="Pagina Principal Practicas con Acceso a Restaurante"
+    />
+    <meta
+      name="keywords"
+      content="practicas, desarrollo web, restaurante, comida, recetas, flamenquin, gambas, tocino de cielo"
+    />
+    <title>Pagina Principal</title>
+    <link rel="icon" sizes="32x32" href="Restaurante/imagenes/favicon.jpg" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Formularios</h1>
+      <a href="index.html">Volver a la página principal</a>
+    </header>
+    <nav></nav>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+          Nombre:
+          <br />
+          <input type="text" name="Nombre" placeholder="Su Nombre" />
+          <br />
+          Apellidos:
+          <br />
+          <input type="text" name="Apellidos" placeholder="Sus Apellidos" />
+          <br />
+          DNI:
+          <br />
+          <input type="text" name="DNI" placeholder="Su DNI" />
+          <br />
+          Localidad de Nacimiento:
+          <br />
+          <input
+            type="text"
+            name="Localidad"
+            placeholder="Su Localidad de Nacimiento"
+          />
+          <br />
+          Provincia:
+          <br />
+          <select name="Provincia">
+            <option value="Almeria">Almería</option>
+            <option value="Cadiz">Cádiz</option>
+            <option value="Cordoba">Córdoba</option>
+            <option value="Granada">Granada</option>
+            <option value="Huelva">Huelva</option>
+            <option value="Jaen">Jaén</option>
+            <option value="Malaga">Málaga</option>
+            <option value="Sevilla">Sevilla</option>
+          </select>
+          <br />
+          Fecha de nacimiento:
+          <br />
+          <input
+            type="date"
+            name="FechaNacimiento"
+            placeholder="Su Fecha de Nacimiento"
+          />
+          <br />
+          Dirección:
+          <br />
+          <input type="text" name="Direccion" placeholder="Su Dirección" />
+          <br />
+          Codigo Postal:
+          <br />
+          <input
+            type="text"
+            name="CodigoPostal"
+            placeholder="Su Código Postal"
+          />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Forma de Acceso</legend>
+          <input type="radio" name="FormaAcceso" value="Directo" />Directo
+          <br />
+          <input
+            type="radio"
+            name="FormaAcceso"
+            value="Recomendado"
+          />Bachillerato LOGSE. Modalidad:
+          <input type="text" name="Modalidad" placeholder="Modalidad" />
+          <br />
+          <input
+            type="radio"
+            name="FormaAcceso"
+            value="Experimental"
+          />Experimental
+          <br />
+          <input type="radio" name="FormaAcceso" value="COU" />COU. Opción:
+          <input type="text" name="Opcion" placeholder="Opción" />
+          <br />
+          <input type="radio" name="FormaAcceso" value="FP2" />FP2.
+          <br />
+          <input type="radio" name="FormaAcceso" value="Otros" />Otros.
+          Especifique: <input type="text" name="Otros" placeholder="Otros" />
+          <br />
+          <input type="radio" name="FormaAcceso" value="Prueba" />Prueba Libre
+        </fieldset>
+        <fieldset>
+          <legend>Documentos Adjuntados</legend>
+          <input type="checkbox" name="OtrosDatos" value="DNI" />Fotocopia DNI
+          <input
+            type="checkbox"
+            name="OtrosDatos"
+            value="Certificado Academico"
+          />Certificado Académico
+          <br />
+          <input
+            type="checkbox"
+            name="OtrosDatos"
+            value="OtrosDocumentos"
+          />Otros Documentos. Especifique:
+          <input
+            type="text"
+            name="OtrosDocumentos"
+            placeholder="Otros Documentos"
+          />
+          <br />
+        </fieldset>
+        <br />
+        <input type="submit" value="Enviar Solicitud" />
+        <input type="reset" value="Limpiar Datos" />
+      </form>
+      <h2>
+        Rellena el siguiente cuestionario para formar parte del club de "Amigos
+        de la informática"
+      </h2>
+
+      <form>
+        <fieldset>
+          <legend>Datos personales</legend>
+          Nombre:
+          <br />
+          <input type="text" name="Nombre" placeholder="Su Nombre" />
+          <br />
+          Domicilio:
+          <br />
+          <input type="text" name="Domicilio" placeholder="Su Domicilio" />
+          <br />
+          Pais de Origen:
+          <br />
+          <select name="Pais">
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+            <option value="Italia">Italia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Otros">Otros</option>
+          </select>
+          <br />
+          Fecha de nacimiento:
+          <br />
+          <input type="date" name="FechaNacimiento" />
+          <br />
+          Correo electrónico:
+          <br />
+          <input type="email" name="Email" placeholder="Su Email" />
+          <br />
+          Telefono:
+          <br />
+          <input type="tel" name="Telefono" placeholder="Su Teléfono" />
+          <br />
+          Estado civil:
+          <br />
+          <input type="radio" name="EstadoCivil" value="Soltero" />Soltero
+          <input type="radio" name="EstadoCivil" value="Casado" />Casado
+          <input type="radio" name="EstadoCivil" value="Divorciado" />Divorciado
+          <input type="radio" name="EstadoCivil" value="Viudo" />Viudo
+          <br />
+          Sexo:
+          <br />
+          <input type="radio" name="Sexo" value="Hombre" />Hombre
+          <input type="radio" name="Sexo" value="Mujer" />Mujer
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Otra Información de Interés</legend>
+          <b
+            >Seleccione los componentes electronicos con los que habitualmente
+            trabaja</b
+          >
+          <br />
+          <select name="NivelEstudios" multiple size="4">
+            <option value="Primaria">Móviles</option>
+            <option value="Secundaria">Ordenadores</option>
+            <option value="Bachillerato">Tablets</option>
+            <option value="FP">Ebooks</option>
+          </select>
+          <br />
+          <b>Seleccione tus actividades favoritas</b>
+          <br />
+          <input type="checkbox" name="Actividades" value="Deportes" />Hacer
+          deporte
+          <input type="checkbox" name="Actividades" value="Diseño" />Salir con
+          mis amigos
+          <input type="checkbox" name="Actividades" value="Redes" />Ver series y
+          películas
+          <br />
+          <input type="checkbox" name="Actividades" value="Videojuegos" />Jugar
+          a videojuegos
+          <input
+            type="checkbox"
+            name="Actividades"
+            value="Senderismo"
+          />Realizar rutas de Senderismo
+          <input type="checkbox" name="Actividades" value="Otros" />Otros.
+          Especifique: <input type="text" name="Otros" placeholder="Otros" />
+          <br />
+          <b
+            >Explique brevemente el motivo por el que desea ingresar en nuestro
+            club:</b
+          >
+          <br />
+          <textarea
+            name="Motivo"
+            rows="5"
+            cols="50"
+            maxlength="500"
+            placeholder="Escriba su motivo"
+          ></textarea>
+          <br />
+          <b>Elige o escribe tu pelicula favorita:</b>
+          <input
+            type="text"
+            name="Pelicula"
+            placeholder="Su Pelicula Favorita"
+          />
+          <br />
+        </fieldset>
+        <input type="submit" value="Enviar Solicitud" />
+        <input type="reset" value="Cancelar" />
+      </form>
+    </main>
+    <footer>
+      <p>© 2026</p>
+    </footer>
+  </body>
+</html>

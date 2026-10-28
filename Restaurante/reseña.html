@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Álvaro Navarro Porcuna">
+    <meta name="description" content="Reseña de Restaurante La Azucena del Sur">
+    <meta name="keywords" content="reseña, restaurante, formulario">
+    <title>Reseña</title>
+    <link rel="icon"  sizes="32x32" href="imagenes/favicon.jpg">
+  </head>
+  <body>
+    <header>
+      <h1>Reseña</h1>
+    </header>
+    <nav>
+        <a href="index.html">Volver a Restaurante</a>
+    </nav>
+    <main>
+        <fieldset>
+            <legend>Formulario de Reseña</legend>
+            Plato:
+            <br>
+            <select name="Plato:">
+                <option value="Flamenquin">Flamenquin Casero</option>
+                <option value="Gambas">Gambas al ajillo</option>
+                <option value="Tocino">Tocino del Cielo</option>
+            </select>
+            
+            <br>
+            Valoracion:
+            <br>
+            <select name="Valoración:">
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
+            <br>
+            Su nombre:
+            <br>
+            <input type="text" name="Nombre" placeholder="Su Nombre">
+            <br>
+            Reseña:
+            <br>
+            <textarea name="Mensaje" rows="10" cols="50" maxlength="1000
+" placeholder="Escriba su reseña"></textarea>
+
+            <br>
+            <p>Máximo 1000 caracteres</p>
+            <br>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar Reseña">
+    </main>
+    <footer>
+     <p>© 2026
+     </p>
+    </footer>
+  </body>
+</html>
